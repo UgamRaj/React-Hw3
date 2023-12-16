@@ -1,0 +1,53 @@
+.imageContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+}
+.midContent {
+  margin-top: 1rem;
+  padding: 0rem 2rem 2rem;
+  background-color: #972048;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.midContent h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.midContent p {
+  width: 50%;
+  text-align: center;
+}
+.btnContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.textContent {
+  margin-left: 2rem;
+}
+.textContent p {
+  text-align: left;
+}
+
+.textContent .colorp {
+  color: #972048;
+}
+.textContent p {
+  margin: 1rem 0;
+}
+
+.textContent hr {
+  margin: 2.5rem 0;
+}

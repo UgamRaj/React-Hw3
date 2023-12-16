@@ -1,0 +1,20 @@
+.copyright {
+  background-color: #a5a19e;
+  padding: 0.2rem 0;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  color: #972048;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+p {
+  text-align: center;
+}
+.aTag {
+  cursor: pointer;
+}
+.aTag:hover {
+  color: rgb(59, 59, 217);
+}

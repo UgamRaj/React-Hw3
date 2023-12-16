@@ -1,0 +1,40 @@
+h1 {
+  color: #a57386;
+  font-weight: 500;
+  margin-bottom: 0rem;
+}
+
+.smallText {
+  font-size: 0.7rem;
+  margin-left: 0.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.navBar {
+  color: #fff;
+}
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0;
+}
+
+.navBar ul li {
+  font-weight: 600;
+  background-color: #a3a29e;
+  padding: 0.5rem 7.68rem;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.navBar ul li.active {
+  background-color: #972048;
+  height: 100%;
+}
+
+.navBar ul li:hover {
+  background-color: #972048;
+}
